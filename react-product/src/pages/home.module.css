@@ -1,0 +1,151 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 20px;
+}
+
+.createButton {
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.errorMessage {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 20px;
+    background: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cardDetail {
+    background: #fff;
+    padding: 5px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out 0.3 ease-in-out;
+    background: black;
+    margin: 0;
+}
+
+.cardDetail:hover {
+    transform: transForm(-5px);
+    box-shadow: 0px 4px 12px rgba(252, 251, 251, 0.918);
+}
+
+.imageContainer {
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.productImage {
+    display: flex;
+    border-radius: 10px;
+    padding: 5px;
+    object-fit: cover;
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.detailButton {
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+.newBadge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: green;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.discouted {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.cardContent {
+    margin-top: 12px;
+}
+
+.productTitle {
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+.priceContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.oldPrice {
+    color: #fff;
+}
+
+.newPrice {
+    color: #fff;
+}
+
+.inStock {
+    color: #fff;
+    margin-top: 1.5px;
+    padding: 0px;
+}
+
+
+.linkContainer {
+    text-decoration: none;
+}
+
+
+

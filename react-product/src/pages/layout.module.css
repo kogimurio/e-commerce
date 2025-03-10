@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.navContainer {
+    background: #333;
+}
+
+.navContainer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.rightContainer {
+    display: flex;
+}
